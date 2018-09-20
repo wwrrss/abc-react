@@ -18,7 +18,7 @@ class Main extends Component{
       }
     
       fetchData(){
-        axios.get('http://www.abc.com.py/apps.php?accion=contenido_portada_con_publicidad&id=1')
+        axios.get('https://sirio.io/consulta.php')
           .then(response => {
             this.setData(response.data);
           });
