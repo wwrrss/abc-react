@@ -10,8 +10,8 @@ class App extends Component {
     return (
       <Router>
         <div>
-          <Route exact path="/" component={Main} />
-          <Route path="/desarrollo"  component={DesarrolloNoticia} />
+          <Route exact path={process.env.PUBLIC_URL + "/"} component={Main} />
+          <Route path={process.env.PUBLIC_URL + "/desarrollo"}  component={DesarrolloNoticia} />
         </div>
       </Router>
     );
