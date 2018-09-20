@@ -1,0 +1,48 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	
+}
+
+
+a{
+  color:#000;
+}
+
+.logo{
+  text-align: center;
+}
+.summary{
+  color:#999;
+}
+.row{
+  margin-right: 0px;
+  margin-left: 0px;
+}
+.img-fluid{
+  display: block;
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.desarrollo-noticia{
+  margin: 20px;
+}
+.desarrollo-noticia h4 {
+  text-align: center;
+  margin: 20px;
+}
+.animated-page-wrapper {
+  position: absolute;
+  top: 62px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
