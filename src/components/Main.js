@@ -20,7 +20,9 @@ class Main extends Component{
       fetchData(){
         axios.get('https://sirio.io/consulta.php')
           .then(response => {
-            this.setData(response.data);
+            console.log('server response');
+            console.log(typeof response.data);
+            this.setData(JSON.parse(response.data));
           });
     
       }
